@@ -1,0 +1,230 @@
+@font-face{
+	font-family: Cookie;
+	src("Cookie-Regular.ttf");
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Merriweather", serif;
+}
+.highlight{
+	color: #b22222;
+}
+/*----------first section----------*/
+#first_section{
+	background: url("../home.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #b22222;
+	height: 600px;
+	text-align: center;
+	color: #fff;
+}
+#first_section .container{ 
+	padding-top: 80px;
+	line-height: 80px;
+}
+.overly_green{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(34,139,34, 0.75);
+}
+#ho_ho_ho{
+	font-size: 50px;
+}
+#x_mas_is_coming{
+	font-size: 100px;
+}
+#here_you_can_find{
+	font-size: 40px;
+}
+#hurry_up{
+	font-size: 30px;
+}
+.first_section_image{
+	float: right;
+	margin-top: -120px;
+}
+.first_section_santa_image{
+	margin-top: 100px;
+	height: 345px;
+	width: 278px;	
+	padding-right: 16px;
+}
+/*----------second section----------*/
+#second_section{
+	padding-top: 75px;
+}
+.big_tree{
+	padding: 75px 0 20px;
+}
+.big_tree img{
+	margin-top: -20px;
+}
+.tree_img{
+	max-width: 100%;
+}
+.tree_img:hover{
+	opacity: 0.8px;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+.big_tree_a{
+	color: #b22222;
+	border-bottom: 3px solid #b2b2b2;
+}
+.big_tree_a:hover{
+	color: #228B22;
+	text-decoration: none;
+}
+.price{
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.offertag{
+	border-radius: 50%;
+	border: 3px solid #fff;
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+	color: #fff;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: 600;
+	transform: rotate(351deg);
+	-moz-transform: rotate(351deg);
+	-o-transform: rotate(351deg);
+	-ms-transform: rotate(351deg);
+}
+.offertag h4{
+	margin-bottom: 0px;
+}
+.offertag p{
+	color: #fff;
+}
+.bigtag{
+	top: 200px;
+	left: 200px;
+}
+.smalltag{
+	top: 100px;
+	left: 110px;
+	-webkit-transform: rotate(351deg) scale(.8);
+	-moz-transform: rotate(351deg) scale(.8);
+	-o-transform: rotate(351deg) scale(.8);
+	-ms-transform: rotate(351deg) scale(.8);
+}
+.fixedoffer{
+	background-color: #89d055;
+}
+.persentoffer{
+	background-color: #f53f2c
+}
+.otheroffer{
+	background-color: #668bde;
+}
+#third_section{
+	margin-top: 155px;
+	background: url("../home.jpg") fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.darkoverlay{
+	background-color: rgba(54, 57, 66, 0.75);
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+/*----------third section----------*/
+#third_section .container{
+	padding: 65px 0;	
+}
+#santaicon{
+	animation-duration: 20s;
+	margin-top: -160px;
+	overflow: hidden;
+	width: 205px;
+	height: 205px;
+}
+/*----------fourth section----------*/
+#fourth_section{
+	padding: 75px 0 30px 0;
+}
+.logo{
+	margin-top: -20px;
+}
+.santacap{
+	margin-top: -220px;
+	margin-left: -290px;
+	height: 48px;
+	width: 48px;
+}
+/*buttons and the other elements*/
+.btn{
+	border-radius: 30px;
+	padding: 10px 40px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: 600px;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+.btn:focus input:focus{
+	outline: none;
+}
+.btn:focus{
+	background: #b73426;
+	color: #fff;
+	border: 2px solid #b22222;
+}
+.btn-default{
+	background: none;
+	color: #f53f2c;
+	border: 2.5px solid #b22222;
+}
+.btn-default:hover{
+	background: #f53f2c;
+	color: #fff;
+	border: 5px solid #b73426;
+}
+input{
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: 2px solid #b2b2b2;
+	margin: 30px 5px;
+	color: #b2b2b2;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+input:focus{
+	border: 2px solid #b22222;
+}
+.highlight{
+	color: #b22222;
+}
+h1{
+	font-size: 138px;
+}
+h2{
+	font-family: Cookie, cursive;
+}
+h4{
+	font-weight: 600;
+}
+p{
+	font-size: 18px;
+	line-height: 1.7em;
+	color: #b2b2b2;
+}
