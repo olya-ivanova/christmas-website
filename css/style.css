@@ -105,9 +105,11 @@ body{
 }
 .offertag h4{
 	margin-bottom: 0px;
+	padding-left: 6px;
 }
 .offertag p{
 	color: #fff;
+	padding-left: 8px;
 }
 .bigtag{
 	top: 200px;
@@ -162,9 +164,8 @@ body{
 	margin-top: -20px;
 }
 .santacap{
-	margin-top: -220px;
-	margin-left: -290px;
-	height: 48px;
+	margin-top: -180px;
+	margin-left: -260px;
 	width: 48px;
 }
 /*buttons and the other elements*/
